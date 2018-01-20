@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Olivier Valery / 歐力偉"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Olivier Valery"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ovalery16.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -78,13 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  name             : "Olivier Valery / 歐力偉"
+  avatar           : "photo3.jpg"
+  bio              : "Currently PhD candidate at National Taiwan University"
+  location         : "Taiwan"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : 
+  email            : olivier_valery@hotmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -92,19 +92,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "OValery16"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "oliviervalery"
+  orcid            : "https://orcid.org/0000-0003-1466-2577"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -116,6 +116,9 @@ author:
 include:
   - .htaccess
   - _pages
+  - _publications
+  - _portfolio
+  - _projects
   - files
 exclude:
   - "*.sublime-project"
@@ -127,6 +130,7 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
+  - _site/experience
   - Capfile
   - CHANGELOG
   - config
@@ -173,6 +177,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
+    output: true
+    permalink: /:collection/:path/
+  journal:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -238,7 +245,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  # _talks
+  - scope:
+      path: ""
+      type: experience
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
