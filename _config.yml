@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Olivier VALERY / 歐力偉"
+title                    : "Olivier Valery / 歐力偉"
 title_separator          : "-"
-name                     : &name "Olivier VALERY"
+name                     : &name "Olivier Valery"
 description              : &description "personal description"
 url                      : http://www.oliviervalery.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Olivier VALERY / 歐力偉"
+  name             : "toto"
   avatar           : "photo3.jpg"
   bio              : "Currently PhD candidate at National Taiwan University"
   location         : "Taiwan"
