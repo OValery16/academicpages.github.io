@@ -1,0 +1,18 @@
+# main links links
+main:
+  - title: "Education"
+    url: /education/
+
+  - title: "Experience"
+    url: /experience/  
+  
+  - title: "Publications"
+    url: /publications/
+  
+  - title: "Skills"
+    url: /skills/
+
+  - title: "Projects"
+    url: /projects/    
+    
+  
