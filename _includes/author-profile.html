@@ -26,7 +26,7 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.cv %}
-        <div><li><img src="http://www.oliviervalery.com/images/logoCV.png" alt="logo" style="width:15px;height:15px;"><a href="{{author.cv| prepend: "/files/" | prepend: base_path }}" >cv</a></li></div>
+        <div><li><img src="http://www.oliviervalery.com/images/logoCV.png" alt="logo" style="width:55px;height:55px;"><a href="{{author.cv| prepend: "/files/" | prepend: base_path }}" >cv</a></li></div>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
